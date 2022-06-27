@@ -7,9 +7,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background: #7fcf7f;
+   min-height: 100vh;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  padding-top: 50px;
+}
+
+h4 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: white;
 }
